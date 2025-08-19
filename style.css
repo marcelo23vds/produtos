@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: "Exo 2", sans-serif;
+}
+
+.cabecalho-principal {
+    background-color: rgb(2, 2, 22);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem 0 2rem;
+}
+
+header div img{
+    width: 200px;
+    height: 70px;
+    object-fit: cover;
+}
+
+#sessao-pesquisar {
+    display: flex;
+}
+
+#barra-pesquisa {
+    width: 900px;
+    height: 40px;
+    border-radius: 8px 0 0 8px;
+}
+
+#botao-buscar {
+    width: 60px;
+    height: 40px;
+    border-radius: 0 8px 8px 0;
+    background-color: rgb(226, 172, 72);
+}
+
+.cabecalho-secundario {
+    background-color: rgb(37, 36, 41);
+    color: white; 
+    height: 40px;
+}
+
+.cabecalho-secundario ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem 0;
+}

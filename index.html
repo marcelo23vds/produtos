@@ -4,22 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>AMAZON</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Amazon.com</title>
 </head>
 <body>
 
     <!--criando o header da pagina no html por se tratar de elementos fixos, os elementos dinamicos que recebem dados do arquivo json serao criados no javascript-->
 
     <header>
-        <div>
-            <img src="./img/amazon-com-br-logo.svg" alt="logo da amazon">
-            <span>A entrega será feita em jandira // (icone gps!!!) Atualizar CEP</span>
-            <button>Todos(icone seta pra baixo!!!)</button>
-            <input type="text" placeholder="Pesquisar Amazon.com.br">
-            <button>(icone lupa!!!)</button>
-            <span>Olá, faça seu login // Contas e listas (icone seta pra baixo!!!)</span>
-            <span>Devoluções // e Pedidos</span>
-            <span>(icone Carrinho!!!)Carrinho</span>
+        <div class="cabecalho-principal">
+            <img src="./img/logo-amazon.png" alt="logo da amazon">
+            <span>Atualizar CEP</span>
+
+            <div id="sessao-pesquisar">
+                <input type="text" placeholder="  Pesquisar Amazon.com.br" id="barra-pesquisa">
+                <button id="botao-buscar">Buscar</button>
+            </div>
+
+            <span>Olá, faça seu Login</span>
+            <span>Pedidos</span>
+            <span>Carrinho</span>
+        </div>
+        <div class="cabecalho-secundario">
+            <ul>
+                <li>Venda na Amazon</li>
+                <li>Mais Vendidos</li>
+                <li>Ofertas do Dia</li>
+                <li>Prime</li>
+                <li>Livros</li>
+                <li>Novidades na Amazon</li>
+                <li>Música</li>
+                <li>Eletrônicos</li>
+                <li>Computadores</li>
+                <li>Games</li>
+                <li>Casa</li>
+                <li>Cuidados Pessoais</li>
+                <li>Beleza</li>
+                <li>Brinquedos e Jogos</li>
+            </ul>
         </div>
         
     </header>
