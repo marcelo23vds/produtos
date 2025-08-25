@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: rgb(202, 201, 201);
     font-family: "Exo 2", sans-serif;
 }
 
@@ -54,4 +54,54 @@ header div img{
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 2rem 0;
+}
+
+#sessaoPrincipal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+#sessaoPrincipal div {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+#sessaoPrincipal div:hover {
+    transform: translateY(-5px);
+}
+
+#sessaoPrincipal div img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+#sessaoPrincipal div span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    color: #333;
+}
+
+#sessaoPrincipal div p:first-of-type {
+    font-size: 0.85rem;
+    color: #686767;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+#sessaoPrincipal div p:nth-of-type(2) {
+    font-size: 0.9rem;
+    text-align: center;
+    color: green;
+    margin: 1rem 0;
 }
